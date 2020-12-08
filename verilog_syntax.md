@@ -43,6 +43,11 @@ verible-verilog-syntax: usage: bazel-bin/verilog/tools/syntax/verible-verilog-sy
   Flags from verilog/tools/syntax/verilog_syntax.cc:
     --error_limit (Limit the number of syntax errors reported. (0: unlimited));
       default: 0;
+    --lang (Selects language variant to parse. Options:
+      auto: SystemVerilog-2017, but may auto-detect alternate parsing modes
+      sv: strict SystemVerilog-2017, with explicit alternate parsing modes
+      lib: Verilog library map language (LRM Ch. 33)
+      ); default: auto;
     --printrawtokens (Prints all lexed tokens, including filtered ones.);
       default: false;
     --printtokens (Prints all lexed and filtered tokens); default: false;
@@ -53,4 +58,4 @@ verible-verilog-syntax: usage: bazel-bin/verilog/tools/syntax/verible-verilog-sy
 
 ## Version
 
-Generated on 2020-10-09 22:06:55 -0700 from [v0.0-669-ge64869b](https://github.com/google/verible/commit/e64869b7ae41c4c2ee041ab9c5d1c9d58da57b94)
+Generated on 2020-12-08 05:23:11 +0000 from [8ce4c49](https://github.com/google/verible/commit/8ce4c499a4a36ce47cb955937f02318d36c32ca7)

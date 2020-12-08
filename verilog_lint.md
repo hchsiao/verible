@@ -223,6 +223,11 @@ Checks that there are no trailing spaces on any lines. See [Style: trailing-spac
 
 Enabled by default: true
 
+### numeric-format-string-style
+Checks that string literals with numeric format specifiers have proper prefixes for hex and bin values and no prefixes for decimal values.  See [Style: number-formatting].
+
+Enabled by default: false
+
 ### one-module-per-file
 Checks that at most one module is declared per file. See [Style: file-extensions].
 
@@ -325,4 +330,4 @@ Enabled by default: true
 
 ## Version
 
-Generated on 2020-10-09 22:06:55 -0700 from [v0.0-669-ge64869b](https://github.com/google/verible/commit/e64869b7ae41c4c2ee041ab9c5d1c9d58da57b94)
+Generated on 2020-12-08 05:23:11 +0000 from [8ce4c49](https://github.com/google/verible/commit/8ce4c499a4a36ce47cb955937f02318d36c32ca7)
